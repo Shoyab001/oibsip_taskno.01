@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="switch js.css" />
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+
+  <body>
+    <nav>
+      <h1>Calculate</h1>
+    </nav>
+    <div class="bigdiv">
+      <div class="container">
+        <input
+          class="value"
+          type="text"
+          id="ScreenOutput"
+          placeholder="0"
+        /><br />
+        <button class="btnC" onclick="Clear()">C</button>
+        <button class="btnB" onclick="Del()">X</button>
+        <button class="btnB" onclick="display('/')">/</button>
+        <button class="btnB" onclick="display('*')">*</button>
+        <button class="btn" onclick="display('7')">7</button>
+        <button class="btn" onclick="display('8')">8</button>
+        <button class="btn" onclick="display('9')">9</button>
+        <button class="btnB" onclick="display('-')">-</button>
+        <button class="btn" onclick="display('4')">4</button>
+        <button class="btn" onclick="display('5')">5</button>
+        <button class="btn" onclick="display('6')">6</button>
+        <button class="btnB" onclick="display('+')">+</button>
+        <button class="btn" onclick="display('1')">1</button>
+        <button class="btn" onclick="display('2')">2</button>
+        <button class="btn" onclick="display('3')">3</button>
+        <button class="btnB" onclick="display('%')">%</button>
+        <button class="btnO" onclick="display('0')">0</button>
+        <button class="btn" onclick="display('.')">.</button>
+        <button class="btnB" onclick="Calculate()">=</button>
+      </div>
+    </div>
+
+    <script>
+      let ScreenOutput = document.getElementById("ScreenOutput");
+
+      function display(num) {
+        ScreenOutput.value += num;
+      }
+
+      function Clear() {
+        ScreenOutput.value = "";
+      }
+
+      function Del() {
+        ScreenOutput.value = ScreenOutput.value.slice(0, -1);
+      }
+
+      function Calculate() {
+        return (ScreenOutput.value = eval(ScreenOutput.value));
+      }
+    </script>
+  </body>
+</html>

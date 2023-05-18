@@ -1,0 +1,103 @@
+
+body{
+    background-color:#8080801a;
+    text-align: center;
+    margin:0px;
+}
+
+nav{
+    background-color:black;
+    color:white;
+}
+
+nav h1{
+    font-size:35px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+.bigdiv{
+    border-radius: 10px 10px;
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 7px 7px 12px 0px #a9a4a4;
+    margin-top: 100px;
+}
+
+.container .value {
+    margin: 5px;
+    padding: 5px;
+    width: 229px;
+    height: 25px;
+    font-size: 25px;
+    border-radius: 10px 10px;
+    box-shadow: inset 0px 0px 5px 1px #9791914d;
+    text-align: end;
+}
+
+.container .btn{
+    margin: 3px;
+    height: 60px;
+    width: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border-radius: 5px 5px;
+    padding-bottom: 30px;
+}
+
+.container .btn:hover{
+    background-color: #a69c9c24;
+    color: black;
+}
+
+.container .btnB:hover{
+    background-color: #8c8c8c;
+    color: white;
+}
+
+.container .btnC:hover{
+    background-color: #a69c9c24;
+    color: black;
+}
+
+.container .btnC{
+    margin: 3px;
+    height: 60px;
+    width: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    color: red;
+    border-radius: 5px 5px;
+    padding-bottom: 30px;
+}
+
+.container .btnO{
+    margin: 3px;
+    height: 60px;
+    width: 110px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px 5px;
+    padding-bottom: 30px;
+}
+
+.container .btnB{
+    margin: 3px;
+    height: 60px;
+    width: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px 5px;
+    padding-bottom: 30px;
+}
